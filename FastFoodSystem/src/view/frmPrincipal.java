@@ -40,6 +40,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         jMenu3 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
         jMenuItem3 = new javax.swing.JMenuItem();
+        jMenuItem2 = new javax.swing.JMenuItem();
         jMenu7 = new javax.swing.JMenu();
         jMenuItem8 = new javax.swing.JMenuItem();
         jMenuItem9 = new javax.swing.JMenuItem();
@@ -58,9 +59,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/lanche-1000px.png"))); // NOI18N
         jPanel1.add(jLabel2, java.awt.BorderLayout.CENTER);
 
-        jMenu1.setText("Brinquedo");
+        jMenu1.setText("Pedido");
 
-        jMenuItem1.setText("Cadastrar Brinquedo...");
+        jMenuItem1.setText("Cadastrar Pedido...");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);
@@ -68,7 +69,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem1);
 
-        jMenuItem4.setText("Consultar Brinquedo...");
+        jMenuItem4.setText("Consultar Pedido...");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem4ActionPerformed(evt);
@@ -94,10 +95,13 @@ public class frmPrincipal extends javax.swing.JFrame {
         jMenuBar1.add(jMenu2);
         jMenuBar1.add(jMenu3);
 
-        jMenu4.setText("Gerente");
+        jMenu4.setText("Lanche");
 
-        jMenuItem3.setText("Cadastrar Gerente");
+        jMenuItem3.setText("Cadastrar Lanche...");
         jMenu4.add(jMenuItem3);
+
+        jMenuItem2.setText("Consultar Lanche...");
+        jMenu4.add(jMenuItem2);
 
         jMenuBar1.add(jMenu4);
 
@@ -209,6 +213,7 @@ public class frmPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem10;
     private javax.swing.JMenuItem jMenuItem11;
+    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem6;
