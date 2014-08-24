@@ -4,12 +4,20 @@
  * and open the template in the editor.
  */
 
-package visao;
+package view;
 
 /**
  *
  * @author Matheus
  */
-public class Teste {
+public class JavaApplication32 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+      
+    }
     
 }
